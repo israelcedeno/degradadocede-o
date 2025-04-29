@@ -1,0 +1,144 @@
+
+* {
+
+    font-family:arial, helyetica, sans-serif;
+}
+#cabecera {
+    background-color: #EEEEEE;
+    padding: 10px;
+    color: #4999df;
+}
+
+#menu {
+    background-color: #2e79ba;
+    /* padding: 10px; */
+    margin-bottom: 5px;
+}
+.item_menu {
+    color: rgb(9, 8, 8);
+    text-decoration: none;
+    padding-top: 10px; /* arriba */
+    padding-bottom: 10px; /* abajo */
+    padding-left: 5px; /* izq */
+    padding-right: 5px; /* der */
+}
+
+a.item_menu:hover {
+    background-color: #a0c3e2;
+}
+#parrafo1 {
+    color: brown;
+    font-weight: bold;
+    text-align: right;
+}
+
+#parrafo2 {
+    color: green;
+    font-weight: light;
+    text-align: center;
+}
+
+#parrafo3 {
+    color: blue;
+    text-transform: uppercase;
+    text-align: justify;
+}
+.ClaseParrafos {
+    background-color: burlywood;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 20px;
+}
+#footer {
+    background-color: darkcyan;
+    color: white;
+    padding: 10px;
+    box-shadow: 10px 5px 5px gray;
+}
+#img1{
+borde: 5px solid red 
+width 3
+
+
+}
+#img1{
+    border: 5px solid red;
+    width: 30%;
+
+}
+
+#img2{
+    width: 30%;
+    border-radius: 5%;
+    border: 2px solid gray;
+
+}
+#img3{
+    width: 30%;
+    opacity: 0.5;
+
+}
+#img3 :hover{
+    width: 32%;
+    opacity: 1;
+
+}
+#fondo {
+    background-color: #b619d9;
+    height: 1500px;
+    width: 100%;
+    background-image: url(LIZ1.jpeg);
+    
+background-repeat: no-repeat;
+background-size: cover;
+opacity: 0.3;
+background-attachment: fixed;
+z-index: -1;
+position: absolute;
+    
+} 
+#deg1{
+    background-image: linear-gradient(
+        blue,
+        rgb(171, 220, 239)
+    );
+}  
+    #deg2 {
+        height: 200px;
+        background-image: linear-gradient(
+            rgb(222, 17, 212),
+            rgb(10, 165, 98),
+            rgb(128, 9, 0)
+        );
+    }
+    
+    #deg3 {
+        height: 200px;
+            background-image: linear-gradient(
+            rgb(26, 26, 30),
+            rgb(255, 255, 255),
+            rgb(119, 128, 0)
+        );
+
+    }
+    @font-face {
+        font-family: 'Instagram';
+        src: url('instagram-logo.ttf') format('truetype');
+        font-style: normal;
+        font-weight: normal;
+    }
+    #deg4 {
+       
+            font-family: Instagram;
+            font-size: 80px;
+            text-align: center;
+            color: white;
+            height: 400px;
+            background-image: linear-gradient(to right, #523FCF, #AF289D, #E8223C, #F6BA50);
+            align-items: center;
+            justify-content: center;
+            display: flex;
+        
+    
+        
+    }
